@@ -5,7 +5,9 @@ angular.module('todo', ['ionic'])
 
   $scope.loadTask = function() {
     $scope.tasks=[
-       {'task_id':1,'task_name':'task 1'}
+       {'task_id':1,'task_name':'task 1'},
+       {'task_id':2,'task_name':'task 2'},
+       {'task_id':3,'task_name':'task 3'}
     ]
   }
 
